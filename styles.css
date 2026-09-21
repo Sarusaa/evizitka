@@ -4,11 +4,14 @@
 
 .container {
     display: grid;
+    gap: 14px;
+    height: 100vh;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
 .karticka1 {
+    background-color: #F5F2EA;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -16,6 +19,7 @@
 }
 
 .karticka2 {
+    background-color: #181818;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -23,6 +27,7 @@
 }
 
 .karticka3 {
+    background-color: #F5F2EA;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -30,6 +35,7 @@
 }
 
 .karticka4 {
+    background-color: #D8FF45;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -37,8 +43,14 @@
 }
 
 .karticka5 {
+    background-color: #6758F5;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+.container div {
+    border-radius: 24px;
+    padding: 28px;
 }
